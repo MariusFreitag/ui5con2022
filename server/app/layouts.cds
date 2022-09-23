@@ -263,7 +263,8 @@ annotate TravelService.Airline with @(
         {  
           $Type  : 'UI.ReferenceFacet',
           ID     : 'TravelData',
-          Target : 'to_Bookings/@UI.LineItem'
+          Target : 'to_Bookings/@UI.LineItem',
+          Label  : '{i18n>TravelData}'
         }
       ]
     }
